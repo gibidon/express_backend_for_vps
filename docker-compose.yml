@@ -1,0 +1,5 @@
+services:
+  auth_backend:
+    build: .
+    ports:
+      - "1000:3000"
